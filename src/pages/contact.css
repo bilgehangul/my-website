@@ -9,30 +9,33 @@
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
     margin-bottom: 2rem;
+    transition: transform 0.3s ease;
 }
 
-.contact-info p {
-    margin-bottom: 1rem;
-    color: #444;
-    font-size: 1.1rem;
-    line-height: 1.6;
+.contact-info:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .contact-links {
     display: flex;
-    gap: 1.5rem;
-    margin-top: 1.5rem;
+    gap: 2rem;
+    margin-top: 2rem;
+    justify-content: center;
 }
 
 .contact-links a {
     color: #646cff;
     text-decoration: none;
     font-weight: 500;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    background-color: #f0f0ff;
 }
 
 .contact-links a:hover {
-    text-decoration: underline;
+    background-color: #646cff;
+    color: white;
+    text-decoration: none;
 }

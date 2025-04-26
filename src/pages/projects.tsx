@@ -9,8 +9,12 @@ const Projects: React.FC = () => {
         <div className="page">
             <Navbar />
             <main className="main-content">
+                <header className="hero">
+                    <h1>My Projects</h1>
+                    <p>Explore some of my recent work</p>
+                </header>
+
                 <section className="section">
-                    <h2>Projects</h2>
                     <div className="projects-grid">
                         <div className="project-card">
                             <div className="project-content">

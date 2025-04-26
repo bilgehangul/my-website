@@ -6,15 +6,16 @@
 }
 
 .project-card {
-    background-color: #fff;
+    background-color: #f8f9fa;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
     overflow: hidden;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-card:hover {
     transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .project-content {
@@ -30,21 +31,26 @@
 .project-content p {
     color: #666;
     line-height: 1.6;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .project-links {
     display: flex;
     gap: 1rem;
-    margin-top: 1rem;
 }
 
 .project-links a {
     color: #646cff;
     text-decoration: none;
     font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    background-color: #f0f0ff;
 }
 
 .project-links a:hover {
-    text-decoration: underline;
+    background-color: #646cff;
+    color: white;
+    text-decoration: none;
 }
