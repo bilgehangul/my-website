@@ -1,28 +1,29 @@
 .about-content {
-    line-height: 1.8;
-    font-size: 1.1rem;
-}
-
-.about-content p {
-    margin-bottom: 1.5rem;
-    color: #444;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .skills-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 1rem;
-    margin-top: 2rem;
+    gap: 1.5rem;
+    margin-top: 3rem;
 }
 
 .skill-item {
     background-color: #f8f9fa;
-    padding: 1rem;
-    border-radius: 8px;
+    padding: 1.5rem;
+    border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-    transition: transform 0.2s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    font-weight: 500;
+    color: #333;
 }
 
 .skill-item:hover {
-    transform: translateY(-2px);
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #f0f0ff;
+    color: #646cff;
 }

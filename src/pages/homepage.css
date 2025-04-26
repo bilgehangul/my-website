@@ -1,45 +1,19 @@
-.homepage {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+/* Homepage specific styles */
+.homepage .hero {
+    margin-bottom: 5rem;
 }
 
-.main-content {
-    flex: 1;
-    padding: 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
-    width: 100%;
+.homepage .section h2 {
+    position: relative;
+    display: inline-block;
 }
 
-.hero {
-    text-align: center;
-    margin: 2rem 0 4rem;
-}
-
-.hero h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-}
-
-.section {
-    margin-bottom: 3rem;
-}
-
-.section h2 {
-    margin-bottom: 1.5rem;
-    color: #333;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-ul li {
-    margin-bottom: 1rem;
-    padding: 1rem;
-    background-color: #f8f9fa;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+.homepage .section h2::after {
+    content: '';
+    position: absolute;
+    bottom: -0.5rem;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background-color: #646cff;
 }

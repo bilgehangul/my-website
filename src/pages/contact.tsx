@@ -9,8 +9,12 @@ const Contact: React.FC = () => {
         <div className="page">
             <Navbar />
             <main className="main-content">
+                <header className="hero">
+                    <h1>Get in Touch</h1>
+                    <p>Let's connect and discuss opportunities</p>
+                </header>
+
                 <section className="section">
-                    <h2>Contact</h2>
                     <div className="contact-content">
                         <div className="contact-info">
                             <p>I'm always open to new opportunities and collaborations. Feel free to reach out!</p>

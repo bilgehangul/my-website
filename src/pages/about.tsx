@@ -9,8 +9,12 @@ const About: React.FC = () => {
         <div className="page">
             <Navbar />
             <main className="main-content">
+                <header className="hero">
+                    <h1>About Me</h1>
+                    <p>Learn about my background and skills</p>
+                </header>
+
                 <section className="section about-content">
-                    <h2>About Me</h2>
                     <p>
                         Hi, I'm Bilgehan Gul, a passionate learner with experience in
                         engineering, debate, non-profit leadership. I love creating innovative solutions and
